@@ -19,11 +19,10 @@ VALUES
 ('Paralegal', 50000, 6);
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
-('John Smith')
-('Malia Brown')
-('Sarah Lourd')
-('Tom Allen')
-('Sam Kash')
-('John Doe')
-('Mike Chan')
-('Ashley Rodriguez');
+('John', 'Smith', 1, 123)
+('Malia', 'Brown', 2, 769)
+('Sarah', 'Lourd', 3, 565)
+('Tom', 'Allen', 4, 089)
+('Sam', 'Kash', 5, 561)
+('John', 'Doe', 6, 234);
+
