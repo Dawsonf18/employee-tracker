@@ -17,3 +17,5 @@ VALUES
 ('Manager', 70000, 4)
 ('Sales Rep', 40000, 5)
 ('Paralegal', 50000, 6);
+
+
