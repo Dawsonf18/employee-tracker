@@ -1,17 +1,16 @@
 {
   "dependencies": {
+    "console.table": "^0.10.0",
     "inquirer": "^8.2.4",
-    "mysql": "^2.18.1",
     "mysql2": "^2.3.3"
   },
   "name": "employee-tracker",
   "description": "",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "dev": "npx nodemon server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -22,8 +21,5 @@
   "bugs": {
     "url": "https://github.com/Dawsonf18/employee-tracker/issues"
   },
-  "homepage": "https://github.com/Dawsonf18/employee-tracker#readme",
-  "devDependencies": {
-    "nodemon": "^2.0.16"
-  }
+  "homepage": "https://github.com/Dawsonf18/employee-tracker#readme"
 }
